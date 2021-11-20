@@ -6,7 +6,9 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.4546875" />
         <entry key="app/src/main/res/drawable/ic_gologin.xml" value="0.4546875" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.4546875" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/drawable/ic_login_kakao.xml" value="0.440625" />
+        <entry key="app/src/main/res/drawable/ic_login_logo.xml" value="0.4546875" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.41244807019679397" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.43854166666666666" />
       </map>
     </option>
