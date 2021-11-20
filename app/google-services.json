@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623934222961",
+    "project_id": "withmedb",
+    "storage_bucket": "withmedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623934222961:android:e6973f894df4c0aad9e1d0",
+        "android_client_info": {
+          "package_name": "com.example.withme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623934222961-64t8vll65vgjggj5ag44mo2vjho4cbq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUuW7ckU0_G-IIGeGi0ewQJEchjhIOqa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623934222961-64t8vll65vgjggj5ag44mo2vjho4cbq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
