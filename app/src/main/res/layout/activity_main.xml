@@ -8,94 +8,25 @@
     android:backgroundTint="@color/Main_color"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/navigationView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/Main_color"
-        android:orientation="horizontal"
+        app:itemIconTint="@drawable/menu_selector_color"
+        app:itemTextColor="@drawable/menu_selector_color"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints">
-
-        <LinearLayout
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:background="@color/Main_color"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-    </LinearLayout>
-
-    <androidx.gridlayout.widget.GridLayout
-        android:layout_width="423dp"
-        android:layout_height="75dp"
-        android:backgroundTint="@color/Main_color"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="486dp">
-
-        <ImageButton
-            android:id="@+id/imageButton5"
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@color/Main_color"
-            app:layout_column="0"
-            app:layout_gravity="center"
-            app:layout_row="0"
-            app:srcCompat="@drawable/homeiconbold" />
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:backgroundTint="@color/Main_color"
-            app:layout_column="1"
-            app:layout_row="0"
-            app:srcCompat="@drawable/localicon" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:backgroundTint="@color/Main_color"
-            app:layout_column="2"
-            app:layout_row="0"
-            app:srcCompat="@drawable/joinicon" />
-
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="106dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@color/Main_color"
-            app:layout_column="3"
-            app:layout_row="0"
-            app:srcCompat="@drawable/mypageicon" />
-    </androidx.gridlayout.widget.GridLayout>
-
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:menu="@menu/my_navigation_items" />
 </androidx.constraintlayout.widget.ConstraintLayout>
