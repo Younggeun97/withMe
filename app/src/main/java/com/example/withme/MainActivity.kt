@@ -11,5 +11,8 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         Log.d("itm","goodd")
+        Log.d("itm","goodd")
+
+
     }
 }
