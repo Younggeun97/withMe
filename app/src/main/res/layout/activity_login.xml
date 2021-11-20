@@ -5,13 +5,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@color/Main_color">
-
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_login_logo"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="176dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:background="@color/Main_color"/>
