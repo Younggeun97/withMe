@@ -16,7 +16,7 @@
 
         android:title="Join" />
     <item
-        android:id="@+id/Mypage"
+        android:id="@+id/Mypageicon"
         android:icon="@drawable/mypageicon"
 
         android:title="My page"

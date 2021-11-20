@@ -10,9 +10,16 @@
         <entry key="app/src/main/res/drawable/ic_login_logo.xml" value="0.4546875" />
         <entry key="app/src/main/res/drawable/menu_selector_color.xml" value="0.26979166666666665" />
         <entry key="app/src/main/res/layout/activity_join.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/activity_join_post.xml" value="0.43854166666666666" />
         <entry key="app/src/main/res/layout/activity_local.xml" value="0.45670857353493316" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.4069718959531884" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_my_page.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/layout/locallistview.xml" value="0.43854166666666666" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.43854166666666666" />
         <entry key="app/src/main/res/menu/my_navigation_items.xml" value="0.43854166666666666" />
       </map>
     </option>
