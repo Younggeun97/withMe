@@ -6,6 +6,11 @@ import android.util.Log
 import com.example.withme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+//    implements OnMapReadyCallback {
+//        private GoogleMap mMap
+//    };
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityMainBinding.inflate(layoutInflater)
