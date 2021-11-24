@@ -24,7 +24,8 @@
             android:layout_height="match_parent"
             android:layout_gravity="left"
             android:backgroundTint="#00FFFFFF"
-            app:srcCompat="@drawable/joinpostclose" />
+            app:srcCompat="@drawable/joinpostclose"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/write"
