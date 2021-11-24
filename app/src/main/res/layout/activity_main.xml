@@ -29,15 +29,7 @@
     <!--        tools:layout_editor_absoluteY="211dp" />-->
 
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#11251F1F"
-        android:gravity="center"
-        android:text="Map"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="-16dp" />
+
 
     <TextView
         android:id="@+id/textView5"
@@ -73,28 +65,33 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profileimage" />
 
+
+    <!--    box -->
+
     <TextView
         android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
         android:text="공릉동 393-11"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="301dp" />
-
-
-    <!--    box -->
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toStartOf="@+id/location"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/maincompass"
-        tools:layout_editor_absoluteX="269dp" />
+        app:srcCompat="@drawable/maincompass" />
 
     <TextView
         android:id="@+id/startPoint"
@@ -117,18 +114,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <!--        <Button-->
-        <!--            android:id="@+id/box"-->
-        <!--            android:layout_width="364dp"-->
-        <!--            android:layout_height="178dp"-->
-        <!--            android:layout_marginBottom="24dp"-->
-        <!--            android:background="@drawable/main_roundrectangle"-->
-        <!--            app:layout_constraintBottom_toTopOf="@+id/navigationView"-->
-        <!--            app:layout_constraintEnd_toEndOf="parent"-->
-        <!--            app:layout_constraintHorizontal_bias="0.489"-->
-        <!--            app:layout_constraintStart_toStartOf="parent"-->
-        <!--            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />-->
-
         <TextView
             android:id="@+id/timeView"
             android:layout_width="match_parent"
@@ -150,6 +135,37 @@
             android:gravity="center"
             android:text="Running Time"
             android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/mainstart"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/mainstop"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/btn_record"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="40dp"
+            android:background="#11251F1F"
+            android:text=""
+            android:textColor="#000"/>
+
 
     </FrameLayout>
 
